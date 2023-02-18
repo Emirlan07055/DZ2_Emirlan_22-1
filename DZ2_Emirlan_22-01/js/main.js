@@ -3,10 +3,6 @@ let i = 0
 const button = document.querySelector('button')
 
 button.addEventListener("click", () => {
-    clearInterval(i)
-})
-
-button.addEventListener("click", () => {
     const interval = setInterval(() => {
         if (i <= 60) {
             console.log(i++)
